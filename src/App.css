@@ -1,0 +1,47 @@
+body {
+  background-color: rgb(54, 53, 53);
+  color: white;
+}
+
+header {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.headerLink {
+  display: flex;
+  gap: 10%;
+  align-items: center;
+}
+
+.body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 620px;
+  text-align: center;
+}
+
+header a {
+  font-size: 20px;
+  color: aliceblue;
+  text-decoration: none;
+}
+
+header a:hover {
+  border-bottom: 3px solid white;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  color: gray;
+}
+
+.footer a {
+  text-decoration: none;
+  color: white;
+}
+.footer a:hover {
+  border-bottom: 1px solid aliceblue;
+}
